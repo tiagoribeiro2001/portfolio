@@ -38,22 +38,25 @@ const Main = () => {
               href="https://www.linkedin.com/in/tiago-ribeiro-265257270/"
               target="_blank"
               rel="noopener noreferrer"
+              className="transition-transform ease-in duration-200 hover:scale-110 hover:text-blue-700"
             >
-              <FaLinkedin className="cursor-pointer" size={20} />
+              <FaLinkedin className="cursor-pointer" size={30} />
             </a>
             <a
               href="https://github.com/tiagoribeiro2001"
               target="_blank"
               rel="noopener noreferrer"
+              className="transition-transform ease-in duration-200 transform hover:scale-110 hover:text-gray-900"
             >
-              <FaGithub className="cursor-pointer" size={20} />
+              <FaGithub className="cursor-pointer" size={30} />
             </a>
             <a
               href="https://orcid.org/0009-0006-2961-8236"
               target="_blank"
               rel="noopener noreferrer"
+              className="transition-transform ease-in duration-200 hover:scale-110 hover:text-green-600"
             >
-              <FaOrcid className="cursor-pointer" size={20} />
+              <FaOrcid className="cursor-pointer" size={30} />
             </a>
           </div>
         </div>
