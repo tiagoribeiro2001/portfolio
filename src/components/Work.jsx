@@ -14,7 +14,7 @@ const data = [
     title: "Degree and Master’s in Informatics Engineering - UMinho",
     duration: "5 years",
     details:
-      "Completing the Master’s in Informatics Engineering at UMinho was an enriching and life-changing experience. I acquired in-depth theoretical and practical knowledge in several fundamental areas, including algorithms, artificial intelligence, computer networks and distributed systems",
+      "Completing the Master’s in Informatics Engineering at UMinho was an enriching and life-changing experience. I acquired in-depth theoretical and practical knowledge in several fundamental areas, including algorithms, artificial intelligence, computer networks and distributed systems.",
   },
 ];
 
