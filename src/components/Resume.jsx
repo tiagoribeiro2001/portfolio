@@ -6,9 +6,7 @@ import {
   FaNodeJs,
   FaJsSquare,
   FaPython,
-  FaDatabase,
   FaDocker,
-  FaAws,
 } from "react-icons/fa";
 import { SiMysql, SiMicrosoftazure } from "react-icons/si";
 

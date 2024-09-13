@@ -3,6 +3,13 @@ import WorkItem from "./WorkItem";
 
 const data = [
   {
+    year: 2023,
+    title: "Co-founder - CrowdFlow",
+    duration: "1 year",
+    details:
+      "I have co-developed a plug-and-play initiative, aimed at revolutionizing the physical commerce industry by enhancing the gathering and examination of consumer data. This project integrates AI and surveillance cameras across various establishments to collect data related to consumer behavior. Currently, the project is being incubated at Startup Braga. We achieved notable recognition by <a href='https://www.rum.pt/news/bebida-vegetal-oh-chata-foi-a-grande-vencedora-do-demo-day-da-startup-point-24' target='_blank' rel='noopener noreferrer'>winning second place at Startup Point</a>, and were <a href='https://www.fjuventude.pt/pt/noticias/fundacao/conhecidos-os-projetos-vencedores-da-mostra-nacional-de-jovens-empreendedores' target='_blank' rel='noopener noreferrer'>awarded at the Mostra Nacional de Jovens Empreendedores 2024</a>.",
+  },
+  {
     year: 2022,
     title: "Electrician's assistant - Sandokan",
     duration: "3 months",
@@ -21,7 +28,9 @@ const data = [
 const Work = () => {
   return (
     <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e] pb-4">Work</h1>
+      <h1 className="text-4xl font-bold text-center text-[#001b5e] pb-4">
+        Work
+      </h1>
       {data.map((item, idx) => (
         <WorkItem
           key={idx}

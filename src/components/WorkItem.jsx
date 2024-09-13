@@ -14,7 +14,10 @@ const WorkItem = ({ year, title, duration, details }) => {
             {duration}
           </span>
         </p>
-        <p className="my-2 text-base font-normal text-stone-500">{details}</p>
+        <p
+          className="my-2 text-base font-normal text-stone-500"
+          dangerouslySetInnerHTML={{ __html: details }}
+        />
       </li>
     </ol>
   );
