@@ -5,9 +5,9 @@ const data = [
   {
     year: 2023,
     title: "Co-founder - CrowdFlow",
-    duration: "1 year",
+    duration: "Now",
     details:
-      "I have co-developed a plug-and-play initiative, aimed at revolutionizing the physical commerce industry by enhancing the gathering and examination of consumer data. This project integrates AI and surveillance cameras across various establishments to collect data related to consumer behavior. Currently, the project is being incubated at Startup Braga. We achieved notable recognition by <a href='https://www.rum.pt/news/bebida-vegetal-oh-chata-foi-a-grande-vencedora-do-demo-day-da-startup-point-24' target='_blank' rel='noopener noreferrer'>winning second place at Startup Point</a>, and were <a href='https://www.fjuventude.pt/pt/noticias/fundacao/conhecidos-os-projetos-vencedores-da-mostra-nacional-de-jovens-empreendedores' target='_blank' rel='noopener noreferrer'>awarded at the Mostra Nacional de Jovens Empreendedores 2024</a>.",
+      "I co-developed a plug-and-play initiative that aims to revolutionize physical retail by enhancing consumer data collection and analysis. The project integrates AI and surveillance cameras to capture insights on consumer behavior across various establishments. My main focus has been on front-end development using React, and managing the deployment process with Azure. Currently incubated at Startup Braga, it earned <a href='https://www.rum.pt/news/bebida-vegetal-oh-chata-foi-a-grande-vencedora-do-demo-day-da-startup-point-24' target='_blank' rel='noopener noreferrer'>second place at Startup Point</a> and was <a href='https://www.fjuventude.pt/pt/noticias/fundacao/conhecidos-os-projetos-vencedores-da-mostra-nacional-de-jovens-empreendedores' target='_blank' rel='noopener noreferrer'>awarded at the Mostra Nacional de Jovens Empreendedores 2024</a>.",
   },
   {
     year: 2022,

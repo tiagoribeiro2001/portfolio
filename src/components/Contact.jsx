@@ -53,6 +53,17 @@ const Contact = () => {
       <h1 className="py-4 text-4xl font-bold text-center text-[#001b5e]">
         Contact
       </h1>
+      <p className="text-lg text-center py-8">
+        Feel free to contact me via email at{" "}
+        <a
+          href="mailto:ribeiro.tiago2001@gmail.com"
+          className="text-blue-500 underline hover:text-blue-700"
+        >
+          ribeiro.tiago2001@gmail.com
+        </a>
+        , or simply fill out the form below. I’ll get back to you as soon as
+        possible!
+      </p>
       <form onSubmit={handleSubmit}>
         <div className="grid md:grid-cols-2 gap-4 w-full py-2">
           <div className="flex flex-col">

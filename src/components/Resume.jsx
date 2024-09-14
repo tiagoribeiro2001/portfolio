@@ -6,9 +6,21 @@ import {
   FaNodeJs,
   FaJsSquare,
   FaPython,
-  FaDocker,
 } from "react-icons/fa";
-import { SiMysql, SiMicrosoftazure } from "react-icons/si";
+import { SiTailwindcss, SiMicrosoftazure, SiTensorflow, SiMysql } from "react-icons/si";
+
+const calculateAge = (birthDate) => {
+  const today = new Date();
+  const birth = new Date(birthDate);
+  let age = today.getFullYear() - birth.getFullYear();
+  const monthDiff = today.getMonth() - birth.getMonth();
+
+  if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birth.getDate())) {
+    age--;
+  }
+  
+  return age;
+};
 
 const Resume = () => {
   return (
@@ -25,7 +37,7 @@ const Resume = () => {
 
         <div className="text-center lg:text-left">
           <p className="text-lg mt-4">
-            I'm a portuguese Software Engineer based in Barcelos, Braga.
+            I'm a {calculateAge('2001-08-26')} year old portuguese Software Engineer based in Barcelos, Braga.
           </p>
           <a
             href={cv}
@@ -40,14 +52,15 @@ const Resume = () => {
             <h3 className="text-2xl font-semibold text-[#001b5e]">
               Tech Stack
             </h3>
-            <div className="flex flex-wrap justify-center md:justify-start mt-4 gap-8 text-[#001b5e]">
+            <div className="flex flex-wrap justify-center lg:justify-start mt-4 gap-8 text-[#001b5e]">
               <FaReact size={30} title="React" />
-              <FaNodeJs size={30} title="Node.js" />
               <FaJsSquare size={30} title="JavaScript" />
+              <SiTailwindcss size={30} title="Tailwind CSS" />
               <FaPython size={30} title="Python" />
+              <FaNodeJs size={30} title="Node.js" />
               <SiMicrosoftazure size={30} title="Azure" />
+              <SiTensorflow size={30} title="Tensorflow" />
               <SiMysql size={30} title="MySQL" />
-              <FaDocker size={30} title="Docker" />
             </div>
           </div>
         </div>
