@@ -21,7 +21,7 @@ const data = [
     title: "Degree and Master’s in Informatics Engineering - UMinho",
     duration: "5 years",
     details:
-      "Completing the Master’s in Informatics Engineering at UMinho was an enriching and life-changing experience. I acquired in-depth theoretical and practical knowledge in several fundamental areas, including algorithms, artificial intelligence, computer networks and distributed systems.",
+      "I gained strong theoretical and practical knowledge in computer science through my studies, becoming proficient in Python, C, and Java. My experience includes working with various database systems, such as MySQL, and covers fundamental areas like algorithms, computer networks, and distributed systems. During my Master's specialization in Intelligent Systems and Application Engineering, I applied TensorFlow for deep learning and machine learning projects. Additionally, I developed a range of applications using React, HTML, and CSS, integrating advanced AI solutions with practical application development.",
   },
 ];
 
