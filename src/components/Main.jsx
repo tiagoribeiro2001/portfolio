@@ -1,5 +1,5 @@
 import React from "react";
-import fundo from "./../assets/fundo.png";
+import fundo from "./../assets/fundo.jpg";
 import { TypeAnimation } from "react-type-animation";
 import { FaLinkedin, FaGithub, FaOrcid } from "react-icons/fa";
 
@@ -10,7 +10,7 @@ const Main = () => {
         className="w-full h-screen object-cover object-left"
         src={fundo}
         alt="/"
-      ></img>
+      />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
         <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
           <h1 className="sm:text-5xl text-4l font-bold text-gray-800">

@@ -1,9 +1,9 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
-import crowdflow from "./../assets/crowdflow.png";
-import andaaqui from "./../assets/andaaqui.png";
-import ghost from "./../assets/ghost.png";
-import rasbet from "./../assets/rasbet.png";
+import crowdflow from "./../assets/crowdflow.jpg";
+import andaaqui from "./../assets/andaaqui.jpg";
+import ghost from "./../assets/ghost.jpg";
+import rasbet from "./../assets/rasbet.jpg";
 
 const Projects = () => {
   return (

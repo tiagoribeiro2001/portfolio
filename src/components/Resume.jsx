@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "./../assets/profile.png";
+import profile from "./../assets/profile.jpg";
 import cv from "./../assets/CV_Tiago.pdf";
 import {
   FaReact,
@@ -31,6 +31,7 @@ const Resume = () => {
           <img
             src={profile}
             alt="Tiago Ribeiro"
+            loading="lazy"
             className="w-full h-full object-cover rounded-full border-4 border-[#001b5e]"
           />
         </div>
