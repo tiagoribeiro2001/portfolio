@@ -1,8 +1,8 @@
 import Sidenav from "./components/Sidenav";
 import Main from "./components/Main";
-import Work from "./components/Work";
+import Resume from "./components/Resume";
 import Projects from "./components/Projects"
-import Resume from "./components/Resume"
+import Profile from "./components/Profile"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 
@@ -11,9 +11,9 @@ function App() {
     <div>
       <Sidenav />
       <Main />
-      <Work />
-      <Projects />
+      <Profile />
       <Resume />
+      <Projects />
       <Contact />
       <Footer />
     </div>

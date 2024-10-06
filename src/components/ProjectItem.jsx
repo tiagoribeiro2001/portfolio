@@ -1,6 +1,6 @@
 import React from "react";
 import { FaReact, FaPython, FaJava } from "react-icons/fa";
-import { SiFlask, SiMicrosoftazure, SiKubernetes, SiAnsible, SiGooglecloud, SiGooglemaps } from "react-icons/si"
+import { SiFlask, SiMicrosoftazure, SiKubernetes, SiAnsible, SiGooglecloud, SiGooglemaps, SiMysql, SiSqlalchemy } from "react-icons/si"
 
 const iconMap = {
   react: {
@@ -38,6 +38,14 @@ const iconMap = {
   googleMaps: {
     icon: <SiGooglemaps size={25} />,
     alt: "Google Maps API",
+  },
+  mysql: {
+    icon: <SiMysql size={25} />,
+    alt: "MySQL",
+  },
+  sqlAlchemy: {
+    icon: <SiSqlalchemy size={25} />,
+    alt: "SQLAlchemy",
   },
 };
 

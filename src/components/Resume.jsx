@@ -1,71 +1,45 @@
 import React from "react";
-import profile from "./../assets/profile.jpg";
-import cv from "./../assets/CV_Tiago.pdf";
-import {
-  FaReact,
-  FaNodeJs,
-  FaJsSquare,
-  FaPython,
-} from "react-icons/fa";
-import { SiTailwindcss, SiMicrosoftazure, SiTensorflow, SiMysql } from "react-icons/si";
+import ResumeItem from "./ResumeItem";
 
-const calculateAge = (birthDate) => {
-  const today = new Date();
-  const birth = new Date(birthDate);
-  let age = today.getFullYear() - birth.getFullYear();
-  const monthDiff = today.getMonth() - birth.getMonth();
-
-  if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birth.getDate())) {
-    age--;
-  }
-  
-  return age;
-};
+const data = [
+  {
+    year: 2023,
+    title: "Co-founder - CrowdFlow",
+    duration: "Now",
+    details:
+      "I co-developed a plug-and-play initiative that aims to revolutionize physical retail by enhancing consumer data collection and analysis. The project integrates AI and surveillance cameras to capture insights on consumer behavior across various establishments. My main focus has been on front-end development using React, and managing the deployment process with Azure. Currently incubated at Startup Braga, it earned <a href='https://www.rum.pt/news/bebida-vegetal-oh-chata-foi-a-grande-vencedora-do-demo-day-da-startup-point-24' target='_blank' rel='noopener noreferrer'>second place at Startup Point</a> and was <a href='https://www.fjuventude.pt/pt/noticias/fundacao/conhecidos-os-projetos-vencedores-da-mostra-nacional-de-jovens-empreendedores' target='_blank' rel='noopener noreferrer'>awarded at the Mostra Nacional de Jovens Empreendedores 2024</a>.",
+  },
+  {
+    year: 2022,
+    title: "Electrician's assistant - Sandokan",
+    duration: "3 months",
+    details:
+      "During the summer break, I had the opportunity to work as an electrician assistant at Sandokan. By assisting experienced technicians, handling tools safely and collaborating as part of a team, I gained valuable practical skills about how a work environment works.",
+  },
+  {
+    year: 2019,
+    title: "Degree and Master’s in Informatics Engineering - UMinho",
+    duration: "5 years",
+    details:
+      "I gained strong theoretical and practical knowledge in computer science through my studies, becoming proficient in Python, C, and Java. My experience includes working with various database systems, such as MySQL, and covers fundamental areas like algorithms, computer networks, and distributed systems. During my Master's specialization in Intelligent Systems and Application Engineering, I applied TensorFlow for deep learning and machine learning projects. Additionally, I developed a range of applications using React, HTML, and CSS, integrating advanced AI solutions with practical application development.",
+  },
+];
 
 const Resume = () => {
   return (
     <div id="resume" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e]">Resume</h1>
-      <div className="max-w-[1040px] flex flex-col lg:flex-row items-center justify-between px-4 py-8">
-        <div className="w-64 h-64">
-          <img
-            src={profile}
-            alt="Tiago Ribeiro"
-            loading="lazy"
-            className="w-full h-full object-cover rounded-full border-4 border-[#001b5e]"
-          />
-        </div>
-
-        <div className="text-center lg:text-left">
-          <p className="text-lg mt-4">
-            I'm a {calculateAge('2001-08-26')} year old portuguese Software Engineer based in Barcelos, Braga.
-          </p>
-          <a
-            href={cv}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-[#001b5e] text-gray-100 mt-4 p-4 rounded-lg"
-          >
-            See Resume
-          </a>
-
-          <div className="mt-8">
-            <h3 className="text-2xl font-semibold text-[#001b5e]">
-              Tech Stack
-            </h3>
-            <div className="flex flex-wrap justify-center lg:justify-start mt-4 gap-8 text-[#001b5e]">
-              <FaReact size={30} title="React" />
-              <FaJsSquare size={30} title="JavaScript" />
-              <SiTailwindcss size={30} title="Tailwind CSS" />
-              <FaPython size={30} title="Python" />
-              <FaNodeJs size={30} title="Node.js" />
-              <SiMicrosoftazure size={30} title="Azure" />
-              <SiTensorflow size={30} title="Tensorflow" />
-              <SiMysql size={30} title="MySQL" />
-            </div>
-          </div>
-        </div>
-      </div>
+      <h1 className="text-4xl font-bold text-center text-[#001b5e] pb-4">
+        Resume
+      </h1>
+      {data.map((item, idx) => (
+        <ResumeItem
+          key={idx}
+          year={item.year}
+          title={item.title}
+          duration={item.duration}
+          details={item.details}
+        />
+      ))}
     </div>
   );
 };

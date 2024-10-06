@@ -123,7 +123,7 @@ const Contact = () => {
         </div>
         <button
           type="submit"
-          className="bg-[#001b5e] text-gray-100 mt-4 w-full p-4 rounded-lg"
+          className="bg-[#001b5e] text-gray-100 mt-4 w-full p-4 rounded-lg transition-transform ease-in duration-200 hover:scale-105"
         >
           Send Message
         </button>

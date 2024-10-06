@@ -20,9 +20,15 @@ const Projects = () => {
           redirect="https://www.crowdflow.pt"
         />
         <ProjectItem
+          img={rasbet}
+          title="RASBet"
+          techIcons={['react', 'python', 'java', 'mysql']}
+          redirect="https://github.com/tiagoribeiro2001/Projeto-de-Requisitos-e-Arquiteturas-de-Software-RASBet"
+        />
+        <ProjectItem
           img={andaaqui}
-          title="Andaaqui"
-          techIcons={['react', 'flask', 'googleMaps']}
+          title="AndaAqui"
+          techIcons={['react', 'flask', 'googleMaps', 'sqlAlchemy']}
           redirect="https://github.com/tiagoribeiro2001/andaaqui"
         />
         <ProjectItem
@@ -30,12 +36,6 @@ const Projects = () => {
           title="Ghost"
           techIcons={['googleCloud', 'ansible', 'k8s']}
           redirect="https://github.com/tiagoribeiro2001/Projeto-de-ASCN"
-        />
-        <ProjectItem
-          img={rasbet}
-          title="RASBet"
-          techIcons={['react', 'python', 'java']}
-          redirect="https://github.com/tiagoribeiro2001/Projeto-de-Requisitos-e-Arquiteturas-de-Software-RASBet"
         />
       </div>
     </div>
