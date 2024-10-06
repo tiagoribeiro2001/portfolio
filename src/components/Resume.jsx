@@ -11,7 +11,7 @@ const data = [
   },
   {
     year: 2022,
-    title: "Electrician's assistant - Sandokan",
+    title: "Electrician assistant - Sandokan",
     duration: "3 months",
     details:
       "During the summer break, I had the opportunity to work as an electrician assistant at Sandokan. By assisting experienced technicians, handling tools safely and collaborating as part of a team, I gained valuable practical skills about how a work environment works.",
