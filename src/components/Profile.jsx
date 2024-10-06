@@ -27,7 +27,7 @@ const Profile = () => {
   return (
     <div id="profile" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
       <h1 className="text-4xl font-bold text-center text-[#001b5e]">Profile</h1>
-      <div className="max-w-[1040px] flex flex-col lg:flex-row items-center justify-between px-4 py-8">
+      <div className="max-w-[1040px] flex flex-col lg:flex-row items-center justify-between px-4 py-8 gap-8">
         <div className="w-64 h-64">
           <img
             src={profile}
@@ -37,10 +37,10 @@ const Profile = () => {
           />
         </div>
 
-        <div className="text-center lg:text-left">
+        <div className="flex-1 text-center lg:text-left">
           <p className="text-lg mt-4">
-            I'm a {calculateAge("2001-08-26")} year old portuguese Software
-            Engineer based in Barcelos, Braga.
+            I'm Tiago Fernandes Ribeiro, a {calculateAge("2001-08-26")} year old
+            portuguese Software Engineer based in Barcelos, Braga.
           </p>
           <a
             href={cv}
