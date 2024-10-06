@@ -18,7 +18,7 @@ const data = [
   },
   {
     year: 2019,
-    title: "Degree and Master’s in Informatics Engineering - UMinho",
+    title: "Degree and Master’s in Informatics Engineering - University of Minho",
     duration: "5 years",
     details:
       "I gained strong theoretical and practical knowledge in computer science through my studies, becoming proficient in Python, C, and Java. My experience includes working with various database systems, such as MySQL, and covers fundamental areas like algorithms, computer networks, and distributed systems. During my Master's specialization in Intelligent Systems and Application Engineering, I applied TensorFlow for deep learning and machine learning projects. Additionally, I developed a range of applications using React, HTML, and CSS, integrating advanced AI solutions with practical application development.",
