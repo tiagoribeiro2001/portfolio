@@ -29,19 +29,8 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -50,9 +39,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<br/>
 <div align="center">
-  <img src="src/assets/portfolio.jpg" alt="Your Name" width="500" />
+  <img src="src/assets/portfolio.jpg" alt="Portfolio" />
 </div>
+<br/>
 
 As a software engineer, I have had the opportunity to work on a wide variety of projects that showcase my skills, creativity, and technical expertise. This portfolio is a reflection of my journey, demonstrating not only my professional experience but also the passion I have for solving complex problems through technology.
 
