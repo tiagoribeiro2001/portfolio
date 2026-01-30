@@ -3,9 +3,9 @@ import ResumeItem from "./ResumeItem";
 
 const data = [
   {
-    year: "2024",
+    year: "2024-Now",
     title: "Associate Software Engineer - Accenture",
-    duration: "Now",
+    duration: "Ongoing",
     details:
       "At Accenture, I completed an initial training program in front-end development before joining large-scale projects for a major European institution. In my current role as a full-stack developer, I focus primarily on front-end development with Angular, while also working on API integration and management, data pipelines, and enterprise systems such as Oracle and Master Data Management (MDM).",
   },

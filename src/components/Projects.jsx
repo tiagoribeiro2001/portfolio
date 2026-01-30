@@ -17,7 +17,7 @@ const Projects = () => {
           img={crowdflow}
           title="CrowdFlow"
           techIcons={['react', 'azure']}
-          redirect="https://www.crowdflow.pt"
+          redirect="https://www.fjuventude.pt/pt/noticias/fundacao/conhecidos-os-projetos-vencedores-da-mostra-nacional-de-jovens-empreendedores"
         />
         <ProjectItem
           img={rasbet}
